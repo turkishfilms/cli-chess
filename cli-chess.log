@@ -1,0 +1,256 @@
+11/27/2024 08:33:30.008 | INFO  | cli-chess | main_model._start_loggers | cli-chess v1.4.1 // python 3.11.5
+11/27/2024 08:33:30.008 | INFO  | cli-chess | main_model._start_loggers | System information: system=Windows // release=10 // machine=AMD64
+11/27/2024 08:33:30.011 | DEBUG | cli-chess | argparse.parse_args | Parsed arguments: Namespace(token=None, reset_config=False, base_url='https://lichess.org', print_config=False)
+11/27/2024 08:33:30.011 | DEBUG | cli-chess | token_manager_model.set_base_url | Base URL set to: https://lichess.org
+11/27/2024 08:33:34.451 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/27/2024 08:33:34.684 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/27/2024 08:33:35.123 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/27/2024 08:33:35.348 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.OFFLINE_GAMES
+11/27/2024 08:33:36.034 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/27/2024 08:33:36.213 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/27/2024 08:33:38.215 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ABOUT
+11/27/2024 08:33:40.733 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/27/2024 08:33:41.160 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/27/2024 08:33:41.302 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.OFFLINE_GAMES
+11/27/2024 08:33:47.541 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.SPECIFY_ELO
+11/27/2024 08:33:47.857 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_SKILL_LEVEL
+11/27/2024 08:33:52.530 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_SKILL_LEVEL
+11/27/2024 08:33:52.753 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_SKILL_LEVEL
+11/27/2024 08:33:54.207 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.SPECIFY_ELO
+11/27/2024 08:33:54.857 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.VARIANT
+11/27/2024 08:33:55.493 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.SPECIFY_ELO
+11/27/2024 08:33:55.661 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_SKILL_LEVEL
+11/27/2024 08:33:55.858 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_ELO
+11/27/2024 08:33:56.859 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_ELO
+11/27/2024 08:33:57.666 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_ELO
+11/27/2024 08:33:58.035 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_ELO
+11/27/2024 08:34:02.166 | DEBUG | cli-chess | board_model._log_init_info | =============== BOARD INITIALIZATION ===============
+11/27/2024 08:34:02.166 | DEBUG | cli-chess | board_model._log_init_info | Variant: chess
+11/27/2024 08:34:02.166 | DEBUG | cli-chess | board_model._log_init_info | Starting FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+11/27/2024 08:34:02.166 | DEBUG | cli-chess | board_model._log_init_info | Orientation: black
+11/27/2024 08:34:02.166 | DEBUG | cli-chess | board_model._log_init_info | ====================================================
+11/27/2024 08:34:02.175 | DEBUG | cli-chess | game_model_base.__init__ | Created OfflineGameModel (id=3024280890064)
+11/27/2024 08:34:02.199 | DEBUG | cli-chess | game_view_base.__init__ | Created OfflineGameView (id=3024281291920)
+11/27/2024 08:34:02.206 | DEBUG | cli-chess | game_presenter_base.__init__ | Created OfflineGamePresenter (id=3024280923536)
+11/27/2024 08:34:02.826 | DEBUG | cli-chess | ui_common.change_views | View changed to OfflineGameView (id=3024281291920)
+11/27/2024 08:34:04.841 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025397650 (move=d2d4, ponder=d7d5, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:34:04.841 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (d2d4) from engine.
+11/27/2024 08:34:04.841 | DEBUG | cli-chess | board_model.make_move | Made move (d2d4)
+11/27/2024 08:34:13.756 | ERROR | cli-chess | board_model.make_move | invalid san: 'nf6'
+11/27/2024 08:34:16.459 | DEBUG | cli-chess | board_model.make_move | Made move (g8f6)
+11/27/2024 08:34:18.513 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025257350 (move=e2e3, ponder=d7d5, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:34:18.513 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (e2e3) from engine.
+11/27/2024 08:34:18.513 | DEBUG | cli-chess | board_model.make_move | Made move (e2e3)
+11/27/2024 08:34:26.749 | DEBUG | cli-chess | board_model.make_move | Made move (d7d5)
+11/27/2024 08:34:28.765 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0252ca610 (move=f1d3, ponder=c7c5, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:34:28.773 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (f1d3) from engine.
+11/27/2024 08:34:28.773 | DEBUG | cli-chess | board_model.make_move | Made move (f1d3)
+11/27/2024 08:34:40.078 | DEBUG | cli-chess | board_model.make_move | Made move (c7c5)
+11/27/2024 08:34:42.102 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025241e90 (move=c2c4, ponder=c5d4, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:34:42.102 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (c2c4) from engine.
+11/27/2024 08:34:42.102 | DEBUG | cli-chess | board_model.make_move | Made move (c2c4)
+11/27/2024 08:34:49.094 | DEBUG | cli-chess | board_model.make_move | Made move (d5c4)
+11/27/2024 08:34:51.118 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0253812d0 (move=d3c4, ponder=e7e6, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:34:51.118 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (d3c4) from engine.
+11/27/2024 08:34:51.118 | DEBUG | cli-chess | board_model.make_move | Made move (d3c4)
+11/27/2024 08:35:07.837 | DEBUG | cli-chess | board_model.make_move | Made move (e7e6)
+11/27/2024 08:35:09.882 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c02542fdd0 (move=c1d2, ponder=c5d4, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:35:09.891 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (c1d2) from engine.
+11/27/2024 08:35:09.891 | DEBUG | cli-chess | board_model.make_move | Made move (c1d2)
+11/27/2024 08:35:22.130 | DEBUG | cli-chess | board_model.make_move | Made move (c5d4)
+11/27/2024 08:35:24.151 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0253f2850 (move=c4e2, ponder=a7a6, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:35:24.151 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (c4e2) from engine.
+11/27/2024 08:35:24.151 | DEBUG | cli-chess | board_model.make_move | Made move (c4e2)
+11/27/2024 08:35:37.664 | DEBUG | cli-chess | board_model.make_move | Made move (d4e3)
+11/27/2024 08:35:39.677 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025403050 (move=d2e3, ponder=d8d1, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:35:39.690 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (d2e3) from engine.
+11/27/2024 08:35:39.690 | DEBUG | cli-chess | board_model.make_move | Made move (d2e3)
+11/27/2024 08:35:55.564 | DEBUG | cli-chess | board_model.make_move | Made move (b7b5)
+11/27/2024 08:35:57.618 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0253e6cd0 (move=e2b5, ponder=c8d7, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:35:57.618 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (e2b5) from engine.
+11/27/2024 08:35:57.618 | DEBUG | cli-chess | board_model.make_move | Made move (e2b5)
+11/27/2024 08:36:07.684 | ERROR | cli-chess | board_model.make_move | illegal san: 'bb4+' in rnbqkb1r/pp3ppp/4pn2/8/8/4B3/PP2BPPP/RN1QK1NR b KQkq - 0 8
+11/27/2024 08:36:11.799 | DEBUG | cli-chess | board_model.make_move | Made move (f8b4)
+11/27/2024 08:36:13.831 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025454510 (move=b1c3, ponder=e8g8, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:36:13.831 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (b1c3) from engine.
+11/27/2024 08:36:13.831 | DEBUG | cli-chess | board_model.make_move | Made move (b1c3)
+11/27/2024 08:36:20.875 | ERROR | cli-chess | board_model.make_move | invalid san: 'oo'
+11/27/2024 08:36:27.756 | DEBUG | cli-chess | board_model.make_move | Made move (e8g8)
+11/27/2024 08:36:29.781 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0254a3e90 (move=a2a3, ponder=b4c3, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:36:29.781 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (a2a3) from engine.
+11/27/2024 08:36:29.781 | DEBUG | cli-chess | board_model.make_move | Made move (a2a3)
+11/27/2024 08:36:34.591 | DEBUG | cli-chess | board_model.make_move | Made move (b4c3)
+11/27/2024 08:36:36.605 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0252b29d0 (move=b2c3, ponder=d8c7, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:36:36.605 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (b2c3) from engine.
+11/27/2024 08:36:36.605 | DEBUG | cli-chess | board_model.make_move | Made move (b2c3)
+11/27/2024 08:36:47.010 | DEBUG | cli-chess | board_model.make_move | Made move (b8c6)
+11/27/2024 08:36:49.092 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025458b90 (move=e3g5, ponder=d8e7, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:36:49.092 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (e3g5) from engine.
+11/27/2024 08:36:49.092 | DEBUG | cli-chess | board_model.make_move | Made move (e3g5)
+11/27/2024 08:36:59.339 | DEBUG | cli-chess | board_model.make_move | Made move (d8d1)
+11/27/2024 08:37:01.398 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c02541ecd0 (move=e2d1, ponder=f6e4, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:37:01.398 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (e2d1) from engine.
+11/27/2024 08:37:01.398 | DEBUG | cli-chess | board_model.make_move | Made move (e2d1)
+11/27/2024 08:37:09.673 | DEBUG | cli-chess | board_model.make_move | Made move (f6e4)
+11/27/2024 08:37:11.719 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c02541fcd0 (move=g1f3, ponder=e4c3, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:37:11.719 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (g1f3) from engine.
+11/27/2024 08:37:11.719 | DEBUG | cli-chess | board_model.make_move | Made move (g1f3)
+11/27/2024 08:37:19.092 | DEBUG | cli-chess | board_model.make_move | Made move (e4c3)
+11/27/2024 08:37:21.133 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c02526f0d0 (move=h2h4, ponder=c3d1, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:37:21.133 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (h2h4) from engine.
+11/27/2024 08:37:21.133 | DEBUG | cli-chess | board_model.make_move | Made move (h2h4)
+11/27/2024 08:37:25.035 | DEBUG | cli-chess | board_model.make_move | Made move (h7h6)
+11/27/2024 08:37:27.084 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025168990 (move=g5c1, ponder=c3d1, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:37:27.084 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (g5c1) from engine.
+11/27/2024 08:37:27.084 | DEBUG | cli-chess | board_model.make_move | Made move (g5c1)
+11/27/2024 08:37:33.209 | ERROR | cli-chess | board_model.make_move | invalid san: 'rd8'
+11/27/2024 08:37:36.102 | DEBUG | cli-chess | board_model.make_move | Made move (f8d8)
+11/27/2024 08:37:38.134 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0254290d0 (move=d1c2, ponder=b7b6, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:37:38.134 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (d1c2) from engine.
+11/27/2024 08:37:38.134 | DEBUG | cli-chess | board_model.make_move | Made move (d1c2)
+11/27/2024 08:37:57.091 | DEBUG | cli-chess | board_model.make_move | Made move (c6d4)
+11/27/2024 08:37:59.145 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0254a08d0 (move=e1d2, ponder=c3b5, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:37:59.145 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (e1d2) from engine.
+11/27/2024 08:37:59.145 | DEBUG | cli-chess | board_model.make_move | Made move (e1d2)
+11/27/2024 08:39:06.964 | DEBUG | cli-chess | board_model.make_move | Made move (d4c2)
+11/27/2024 08:39:09.023 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025455610 (move=d2c2, ponder=c3d5, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:39:09.023 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (d2c2) from engine.
+11/27/2024 08:39:09.023 | DEBUG | cli-chess | board_model.make_move | Made move (d2c2)
+11/27/2024 08:39:16.807 | DEBUG | cli-chess | board_model.make_move | Made move (c3d5)
+11/27/2024 08:39:18.873 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0253c7610 (move=c2b3, ponder=e6e5, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:39:18.873 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (c2b3) from engine.
+11/27/2024 08:39:18.873 | DEBUG | cli-chess | board_model.make_move | Made move (c2b3)
+11/27/2024 08:39:23.516 | DEBUG | cli-chess | board_model.make_move | Made move (b7b6)
+11/27/2024 08:39:25.561 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0251d5910 (move=a3a4, ponder=c8b7, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:39:25.561 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (a3a4) from engine.
+11/27/2024 08:39:25.561 | DEBUG | cli-chess | board_model.make_move | Made move (a3a4)
+11/27/2024 08:39:33.717 | DEBUG | cli-chess | board_model.make_move | Made move (c8a6)
+11/27/2024 08:39:35.750 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c024b2eb90 (move=a1b1, ponder=a8c8, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:39:35.750 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (a1b1) from engine.
+11/27/2024 08:39:35.750 | DEBUG | cli-chess | board_model.make_move | Made move (a1b1)
+11/27/2024 08:39:41.050 | DEBUG | cli-chess | board_model.make_move | Made move (a8c8)
+11/27/2024 08:39:43.123 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025405510 (move=b3b2, ponder=a6d3, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:39:43.123 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (b3b2) from engine.
+11/27/2024 08:39:43.123 | DEBUG | cli-chess | board_model.make_move | Made move (b3b2)
+11/27/2024 08:39:59.270 | DEBUG | cli-chess | board_model.make_move | Made move (d5b4)
+11/27/2024 08:40:01.307 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0252c9b90 (move=f3e1, ponder=b4d3, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:40:01.307 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (f3e1) from engine.
+11/27/2024 08:40:01.307 | DEBUG | cli-chess | board_model.make_move | Made move (f3e1)
+11/27/2024 08:40:19.789 | DEBUG | cli-chess | board_model.make_move | Made move (a6d3)
+11/27/2024 08:40:21.831 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0252cd210 (move=g2g4, ponder=d3b1, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:40:21.832 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (g2g4) from engine.
+11/27/2024 08:40:21.832 | DEBUG | cli-chess | board_model.make_move | Made move (g2g4)
+11/27/2024 08:40:28.985 | DEBUG | cli-chess | board_model.make_move | Made move (d3b1)
+11/27/2024 08:40:31.033 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c02549bbd0 (move=e1g2, ponder=b1e4, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:40:31.033 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (e1g2) from engine.
+11/27/2024 08:40:31.033 | DEBUG | cli-chess | board_model.make_move | Made move (e1g2)
+11/27/2024 08:40:38.843 | DEBUG | cli-chess | board_model.make_move | Made move (b1e4)
+11/27/2024 08:40:40.867 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025474d50 (move=b2a3, ponder=e4g2, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:40:40.867 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (b2a3) from engine.
+11/27/2024 08:40:40.867 | DEBUG | cli-chess | board_model.make_move | Made move (b2a3)
+11/27/2024 08:40:48.003 | DEBUG | cli-chess | board_model.make_move | Made move (b4c2)
+11/27/2024 08:40:50.062 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025413450 (move=a3a2, ponder=c2b4, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:40:50.062 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (a3a2) from engine.
+11/27/2024 08:40:50.062 | DEBUG | cli-chess | board_model.make_move | Made move (a3a2)
+11/27/2024 08:40:54.120 | DEBUG | cli-chess | board_model.make_move | Made move (e4g2)
+11/27/2024 08:40:56.179 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0253d8990 (move=h1g1, ponder=c2b4, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:40:56.179 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (h1g1) from engine.
+11/27/2024 08:40:56.179 | DEBUG | cli-chess | board_model.make_move | Made move (h1g1)
+11/27/2024 08:41:00.459 | DEBUG | cli-chess | board_model.make_move | Made move (g2d5)
+11/27/2024 08:41:02.523 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025440ad0 (move=a2b1, ponder=c2b4, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:41:02.523 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (a2b1) from engine.
+11/27/2024 08:41:02.539 | DEBUG | cli-chess | board_model.make_move | Made move (a2b1)
+11/27/2024 08:41:18.499 | DEBUG | cli-chess | board_model.make_move | Made move (c2d4)
+11/27/2024 08:41:20.549 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025257710 (move=c1d2, ponder=c8c2, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:41:20.549 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (c1d2) from engine.
+11/27/2024 08:41:20.549 | DEBUG | cli-chess | board_model.make_move | Made move (c1d2)
+11/27/2024 08:41:35.559 | DEBUG | cli-chess | board_model.make_move | Made move (d4f3)
+11/27/2024 08:41:37.618 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025284210 (move=d2a5, ponder=b6a5, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:41:37.618 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (d2a5) from engine.
+11/27/2024 08:41:37.618 | DEBUG | cli-chess | board_model.make_move | Made move (d2a5)
+11/27/2024 08:41:42.344 | DEBUG | cli-chess | board_model.make_move | Made move (f3g1)
+11/27/2024 08:41:44.404 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025404610 (move=a5e1, ponder=d5e4, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:41:44.404 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (a5e1) from engine.
+11/27/2024 08:41:44.404 | DEBUG | cli-chess | board_model.make_move | Made move (a5e1)
+11/27/2024 08:41:58.069 | DEBUG | cli-chess | board_model.make_move | Made move (d5e4)
+11/27/2024 08:42:00.093 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0251dea90 (move=b1a2, ponder=c8c2, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:42:00.093 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (b1a2) from engine.
+11/27/2024 08:42:00.093 | DEBUG | cli-chess | board_model.make_move | Made move (b1a2)
+11/27/2024 08:42:04.283 | DEBUG | cli-chess | board_model.make_move | Made move (c8c2)
+11/27/2024 08:42:06.365 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c02540aad0 (move=a2a1, ponder=d8d1, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:42:06.365 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (a2a1) from engine.
+11/27/2024 08:42:06.365 | DEBUG | cli-chess | board_model.make_move | Made move (a2a1)
+11/27/2024 08:42:12.732 | DEBUG | cli-chess | board_model.make_move | Made move (d8d1)
+11/27/2024 08:42:12.795 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c0253d82d0 (move=None, ponder=None, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:42:34.854 | DEBUG | cli-chess | premove_model.set_premove | Premove set to (a6)
+11/27/2024 08:42:44.527 | DEBUG | cli-chess | board_model.set_board_orientation | Board orientation set to WHITE
+11/27/2024 08:42:45.134 | DEBUG | cli-chess | board_model.set_board_orientation | Board orientation set to BLACK
+11/27/2024 08:43:03.059 | ERROR | cli-chess | offline_game_presenter._parse_and_present_game_over | Attempted to present game over status when the game is not over
+11/27/2024 08:43:03.082 | INFO  | cli-chess | offline_game_model._report_game_over | Game over (status=resignation winner=white)
+11/27/2024 08:43:08.751 | DEBUG | cli-chess | game_presenter_base.exit | Exiting game presenter
+11/27/2024 08:43:08.751 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after BoardModel (id=3024280927760)
+11/27/2024 08:43:08.751 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after MoveListModel (id=3024280928144)
+11/27/2024 08:43:08.751 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after MaterialDifferenceModel (id=3024278117584)
+11/27/2024 08:43:08.751 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after PremoveModel (id=3024280924432)
+11/27/2024 08:43:08.751 | DEBUG | cli-chess | ui_common.change_views | View changed to MainView (id=3024278286992)
+11/27/2024 08:43:08.751 | DEBUG | cli-chess | engine_model.quit_engine | Quitting engine
+11/27/2024 08:43:10.291 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/27/2024 08:43:10.518 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/27/2024 08:43:11.813 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: SettingsMenuOptions.PROGRAM_SETTINGS
+11/27/2024 08:43:14.161 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_BOARD_HIGHLIGHTS
+11/27/2024 08:43:14.933 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_BOARD_COORDINATES
+11/27/2024 08:43:17.418 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_BOARD_COORDINATES
+11/27/2024 08:43:17.954 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_BOARD_HIGHLIGHTS
+11/27/2024 08:43:18.829 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_BOARD_HIGHLIGHTS
+11/27/2024 08:43:19.256 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.BLINDFOLD_CHESS
+11/27/2024 08:43:19.929 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.USE_UNICODE_PIECES
+11/27/2024 08:43:21.434 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.USE_UNICODE_PIECES
+11/27/2024 08:43:24.798 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_MOVE_LIST_IN_UNICODE
+11/27/2024 08:43:26.583 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_MATERIAL_DIFF_IN_UNICODE
+11/27/2024 08:43:29.137 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_MATERIAL_DIFF_IN_UNICODE
+11/27/2024 08:43:29.602 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.PAD_UNICODE
+11/27/2024 08:43:31.663 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.PAD_UNICODE
+11/27/2024 08:43:31.798 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.TERMINAL_COLOR_DEPTH
+11/27/2024 08:43:32.130 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.TERMINAL_COLOR_DEPTH
+11/27/2024 08:43:32.130 | INFO  | cli-chess | ui_common.set_color_depth | Setting color depth to: DEPTH_24_BIT
+11/27/2024 08:43:33.425 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.TERMINAL_COLOR_DEPTH
+11/27/2024 08:43:33.425 | INFO  | cli-chess | ui_common.set_color_depth | Setting color depth to: DEPTH_4_BIT
+11/27/2024 08:43:34.941 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.PAD_UNICODE
+11/27/2024 08:43:35.107 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_MATERIAL_DIFF_IN_UNICODE
+11/27/2024 08:43:35.265 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.SHOW_MOVE_LIST_IN_UNICODE
+11/27/2024 08:43:35.469 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.USE_UNICODE_PIECES
+11/27/2024 08:43:35.634 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: Keys.BLINDFOLD_CHESS
+11/27/2024 08:43:36.056 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: SettingsMenuOptions.LICHESS_AUTHENTICATION
+11/27/2024 08:43:37.559 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: SettingsMenuOptions.PROGRAM_SETTINGS
+11/27/2024 08:43:38.635 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ABOUT
+11/27/2024 08:43:39.393 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/27/2024 08:43:39.623 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/27/2024 08:43:39.909 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/27/2024 08:43:40.107 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ABOUT
+11/27/2024 08:43:42.522 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/27/2024 08:43:44.064 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/27/2024 08:43:46.425 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.OFFLINE_GAMES
+11/27/2024 08:43:57.133 | DEBUG | cli-chess | board_model._log_init_info | =============== BOARD INITIALIZATION ===============
+11/27/2024 08:43:57.133 | DEBUG | cli-chess | board_model._log_init_info | Variant: chess
+11/27/2024 08:43:57.133 | DEBUG | cli-chess | board_model._log_init_info | Starting FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+11/27/2024 08:43:57.133 | DEBUG | cli-chess | board_model._log_init_info | Orientation: black
+11/27/2024 08:43:57.133 | DEBUG | cli-chess | board_model._log_init_info | ====================================================
+11/27/2024 08:43:57.133 | DEBUG | cli-chess | game_model_base.__init__ | Created OfflineGameModel (id=3024281403536)
+11/27/2024 08:43:57.149 | DEBUG | cli-chess | game_view_base.__init__ | Created OfflineGameView (id=3024283091088)
+11/27/2024 08:43:57.149 | DEBUG | cli-chess | game_presenter_base.__init__ | Created OfflineGamePresenter (id=3024281328464)
+11/27/2024 08:43:57.432 | DEBUG | cli-chess | ui_common.change_views | View changed to OfflineGameView (id=3024283091088)
+11/27/2024 08:43:59.466 | DEBUG | cli-chess | engine_model.get_best_move | Returning <PlayResult at 0x2c025561e90 (move=e2e3, ponder=e7e6, info={}, draw_offered=False, resigned=False)>
+11/27/2024 08:43:59.466 | DEBUG | cli-chess | offline_game_presenter.make_engine_move | Received move (e2e3) from engine.
+11/27/2024 08:43:59.466 | DEBUG | cli-chess | board_model.make_move | Made move (e2e3)
+11/27/2024 08:44:04.604 | ERROR | cli-chess | offline_game_presenter._parse_and_present_game_over | Attempted to present game over status when the game is not over
+11/27/2024 08:44:04.604 | INFO  | cli-chess | offline_game_model._report_game_over | Game over (status=resignation winner=white)
+11/27/2024 08:44:07.794 | DEBUG | cli-chess | game_presenter_base.exit | Exiting game presenter
+11/27/2024 08:44:07.794 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after BoardModel (id=3024280822224)
+11/27/2024 08:44:07.794 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after MoveListModel (id=3024280826768)
+11/27/2024 08:44:07.794 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after MaterialDifferenceModel (id=3024282463760)
+11/27/2024 08:44:07.794 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after PremoveModel (id=3024282462224)
+11/27/2024 08:44:07.794 | DEBUG | cli-chess | ui_common.change_views | View changed to MainView (id=3024278286992)
+11/27/2024 08:44:07.794 | DEBUG | cli-chess | engine_model.quit_engine | Quitting engine
+11/27/2024 08:44:08.896 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/27/2024 08:44:09.182 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/27/2024 08:44:10.702 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ABOUT
